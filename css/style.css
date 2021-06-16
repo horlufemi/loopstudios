@@ -145,6 +145,12 @@ h1 {
     background-color: var(--black);
 }
 
+.img-underline {
+    border-bottom: 2px solid #ffffff00;
+}
+.img-underline:hover {
+    border-bottom: 2px solid #fff;
+}
 
 /* media queries  */
 @media screen and (min-width: 320px) {
