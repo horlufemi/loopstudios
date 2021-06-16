@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 0%);
+    --dark-gray: hsl(0, 0%, 55%);
+    --very-dark-gray: hsl(0, 0%, 41%);
+    --alata:  'Alata', sans-serif;
+    --josepfinsans: 'Josefin Sans', sans-serif;
+    --px40: 60px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--josepfinsans);
+}
+
+body {
+    font-family: var(--alata);
+    margin: 0;
+}
+
+h1 {
+    font-size: var(--px40);
+}
+
+.herobg {
+    background-image: url(../images/mobile/image-hero.jpg);
+    background-size: cover;
+
+}
+
+.creations {
+    height: 120px;
+}
+
+.co:hover > .overlay {
+    width:100%;
+    height:100%;
+    position:absolute;
+    background-color:#fff;
+    opacity:0.5;
+    /* border-radius:30px; */
+    color:var(--black);
+}
+
+.loopgrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+}
+
+.padding-y-5 {
+    padding: 5% 0;
+}
+
+.padding-y-10 {
+    padding: 10% 0;
+}
+
+.padding-y-15 {
+    padding: 15% 0;
+}
+
+.btn-close {
+    background: transparent url(../images/close.svg) center/1em auto no-repeat;
+}
+
+.close-btn {
+    height: 1rem;
+    width: 1rem;
+}
+
+.hamburger-menu {
+    width: 2rem;
+}
+
+.py-30p {
+    padding-top: 30% !important;
+    padding-bottom: 30% !important;
+}
+
+.fs-2rem {
+    font-size: 2rem;
+}
+
+.ietd {
+    font-size: 2.5rem;
+}
+
+.hover-underline:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+}
+
+.card-img-overlay:hover {
+    /* opacity: 0.3!important; */
+    background-color: #ffffff80!important;
+    color: var(--black);
+}
+
+.card, .card-img, .card-img-overlay {
+    border-radius: 0;
+}
+/* grid bg */
+
+.earth {
+    background-image: url(../images/mobile/image-deep-earth.jpg);
+}
+
+.night {
+    background-image: url(../images/mobile/image-night-arcade.jpg);
+}
+
+.soccer {
+    background-image: url(../images/mobile/image-soccer-team.jpg);
+}
+
+.thegrid {
+    background-image: url(../images/mobile/image-grid.jpg);
+}
+
+.fromup {
+    background-image: url(../images/mobile/image-from-above.jpg);
+}
+
+.pocket {
+    background-image: url(../images/mobile/image-pocket-borealis.jpg);
+}
+
+.curiousity {
+    background-image: url(../images/mobile/image-curiosity.jpg);
+}
+
+.fisheye {
+    background-image: url(../images/mobile/image-fisheye.jpg);
+}
+
+.bg-cover {
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-black {
+    background-color: var(--black);
+}
+
+
+/* media queries  */
+@media screen and (min-width: 320px) {
+    .creations {
+        height: 250px;
+    }   
+
+    .loopgrid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+
+    /* .bg-cover {
+        background-size: cover;
+        background-position: center;
+    } */
+
+    .herobg {
+        background-image: url(../images/desktop/image-hero.jpg);    
+    }
+
+    .earth {
+        background-image: url(../images/desktop/image-deep-earth.jpg);
+    }
+    
+    .night {
+        background-image: url(../images/desktop/image-night-arcade.jpg);
+    }
+    
+    .soccer {
+        background-image: url(../images/desktop/image-soccer-team.jpg);
+    }
+
+    .thegrid {
+        background-image: url(../images/desktop/image-grid.jpg);
+    }
+    
+    .fromup {
+        background-image: url(../images/desktop/image-from-above.jpg);
+    }
+    
+    .pocket {
+        background-image: url(../images/desktop/image-pocket-borealis.jpg);
+    }
+    
+    .curiousity {
+        background-image: url(../images/desktop/image-curiosity.jpg);
+    }
+    
+    .fisheye {
+        background-image: url(../images/desktop/image-fisheye.jpg);
+    }
+}
+
+
+@media screen and (min-width: 991.98px) {
+    .creations {
+        height: 500px;
+    } 
+
+    .ietd {
+        font-size: 3.75rem;
+    }
+    
+    .img-100{
+        width:100%
+    }
+
+    .vr-text {
+        position: relative;
+        right: 50px;
+        width: 120%;
+        transform: translate(-17rem, 17rem);
+    }
+
+    .loopgrid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+    }
+    
+}

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- <link rel="stylesheet" href="./css/bootstrap.min.css" /> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Frontend Mentor | Loopstudios landing page</title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="herobg bg-cover">
+      <nav class="navbar navbar-expand-lg navbar-light p-4">
+        <div class="container-lg">
+          <a class="navbar-brand" href="#"
+            ><img src="./images/logo.svg" alt=""
+          /></a>
+          <button
+            class="border-0 navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasMenu"
+            aria-controls="offcanvasExample"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <img class="hamburger-menu" src="./images/hamburger-menu.svg" alt="">
+            <!-- <span class="border-0 text-white navbar-toggler-icon"></span> -->
+          </button>
+          <div class="offcanvas offcanvas-start bg-black" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+            <div class="offcanvas-header">
+              <a class="navbar-brand" href="#"><img src="./images/logo.svg" alt=""/></a>
+              <img class="close-btn" data-bs-dismiss="offcanvas" aria-label="Close" src="./images/close.svg" alt="">
+              <!-- <button type="button" class="btn-close text-reset text-white" data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
+            </div>
+            <div class="offcanvas-body py-30p">
+              <div class="vh-100">
+                <ul class="list-unstyled" aria-labelledby="dropdownMenuButton">
+                  <li class="py-2"><a class="nav-item text-white text-uppercase fs-2rem text-decoration-none" href="#">About</a></li>
+                  <li class="py-2"><a class="nav-item text-white text-uppercase fs-2rem text-decoration-none" href="#">Careers</a></li>
+                  <li class="py-2"><a class="nav-item text-white text-uppercase fs-2rem text-decoration-none" href="#">Events</a></li>
+                  <li class="py-2"><a class="nav-item text-white text-uppercase fs-2rem text-decoration-none" href="#">Products</a></li>
+                  <li class="py-2"><a class="nav-item text-white text-uppercase fs-2rem text-decoration-none" href="#">Support</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="hover-underline text-white nav-link active"
+                  aria-current="page"
+                  href="#"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="hover-underline text-white nav-link" href="#">Careers</a>
+              </li>
+              <li class="nav-item">
+                <a class="hover-underline text-white nav-link" href="#">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="hover-underline text-white nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="hover-underline text-white nav-link" href="#">Support</a>
+              </li>
+
+              <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div>
+        <div class="container-lg">
+          <div class="row">
+            <div class="col-12 col-md-6 padding-y-10">
+              <h1 class="border border-2 border-white p-5 m-4 m-lg-0 ietd text-white text-uppercase">
+                Immersive experiences that deliver
+              </h1>
+            </div>
+            <div class="col-12 col-md-6"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <footer>
+      <section class="">
+        <div class="container-lg py-5">
+          <div class="row">
+            <div class="col-12 col-lg-8 text-center text-lg-start"><img class="img-100 img-fluid  text-lg-start" src="./images/desktop/image-interactive.jpg" alt=""></div>
+            <div class="col-12 col-lg-4">
+              <div class="bg-white vr-text p-5 text-center text-lg-start">
+                <h2 class="text-uppercase">The leader in interactive VR</h2>
+                <p>Founded in 2011, Loopstudios has been producing
+                world-class virtual reality projects for some of the best companies around
+                the globe. Our award-winning creations have transformed businesses through
+                digital experiences that bind to their brand.</p> 
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-lg py-5">
+          <div class="row">
+            <div class="d-md-flex text-center text-md-start justify-content-between align-items-center">
+              <h3 class="fs-1 text-uppercase">Our creations</h3>
+              <button class="btn btn-outline-dark rounded-0 d-none d-md-block px-5">See All</button>
+            </div>
+          </div>
+          <div class="padding-y-5">
+            <div class="row">
+              <div class="col-12 col-lg-3 py-2">
+                <div class="card text-white">
+                  <div class="card-img earth bg-cover creations" alt="Card image"></div>
+                  <div class="card-img-overlay d-flex align-items-bottom rounded-0">
+                    <div class="fs-3 p-2 text-uppercase mt-auto">Deep <br> earth</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3 py-2">
+                <div class="card text-white">
+                  <div class="card-img night bg-cover creations" alt="Card image"></div>
+                  <div class="card-img-overlay d-flex align-items-bottom rounded-0">
+                    <div class="fs-3 p-2 text-uppercase mt-auto">Night  <br> arcade</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3 py-2">
+                <div class="card text-white">
+                  <div class="card-img soccer bg-cover creations" alt="Card image"></div>
+                  <div class="card-img-overlay d-flex align-items-bottom rounded-0">
+                    <div class="fs-3 p-2 text-uppercase mt-auto">Soccer <br> team VR</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3 py-2">
+                <div class="card text-white">
+                  <div class="card-img thegrid bg-cover creations" alt="Card image"></div>
+                  <div class="card-img-overlay d-flex align-items-bottom rounded-0">
+                    <div class="fs-3 p-2 text-uppercase mt-auto">The <br> grid</div>
+                  </div>
+                </div>
+              </div> 
+            </div>
+            <div class="row">
+              <div class="col-12 col-lg-3 py-2">
+                <div class="card text-white">
+                  <div class="card-img fromup bg-cover creations" alt="Card image"></div>
+                  <div class="card-img-overlay d-flex align-items-bottom rounded-0">
+                    <div class="fs-3 p-2 text-uppercase mt-auto">From up <br> above VR</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3 py-2">
+                <div class="card text-white">
+                  <div class="card-img pocket bg-cover creations" alt="Card image"></div>
+                  <div class="card-img-overlay d-flex align-items-bottom rounded-0">
+                    <div class="fs-3 p-2 text-uppercase mt-auto">Pocket <br> borealis</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3 py-2">
+                <div class="card text-white">
+                  <div class="card-img curiousity bg-cover creations" alt="Card image"></div>
+                  <div class="card-img-overlay d-flex align-items-bottom rounded-0">
+                    <div class="fs-3 p-2 text-uppercase mt-auto">The <br> curiosity</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3 py-2">
+                <div class="card text-white">
+                  <div class="card-img fisheye bg-cover creations" alt="Card image"></div>
+                  <div class="card-img-overlay d-flex align-items-bottom rounded-0">
+                    <div class="fs-3 p-2 text-uppercase mt-auto">Make it <br>fisheye</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center p-3">
+            <button class="btn btn-outline-dark rounded-0 d-md-none text-center">See All</button>
+          </div>
+
+        </div>
+      </section>
+    <footer class="bg-black padding-y-5">
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-12 col-md-6 text-center text-md-start text-white">
+            <img class="p-2" src="./images/logo.svg" alt="">
+            <div>
+              <div class="d-md-flex">
+                <div class="hover-underline p-2">About</div>
+                <div class="hover-underline p-2">Careers</div>
+                <div class="hover-underline p-2">Events</div>
+                <div class="hover-underline p-2">Products</div>
+                <div class="hover-underline p-2">Support</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 text-center text-md-end text-white">
+            <div class="p-2">
+              <img class="hover-underline px-1" src="./images/icon-facebook.svg" alt="">
+              <img class="hover-underline px-1" src="./images/icon-twitter.svg" alt="">
+              <img class="hover-underline px-1" src="./images/icon-pinterest.svg" alt="">
+              <img class="hover-underline px-1" src="./images/icon-instagram.svg" alt="">
+            </div>
+            <p class="p-2">© 2021 Loopstudios. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+
+           
+           
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Olufemi/a>.
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="./js/bootstrap.bundle.min.js"></script> -->
+  </body>
+</html>
