@@ -155,7 +155,7 @@ h1 {
 /* media queries  */
 @media screen and (min-width: 320px) {
     .creations {
-        height: 250px;
+        height: 180px;
     }   
 
     .loopgrid {
